@@ -19,6 +19,9 @@ setup(
     url='https://github.com/ethereum/research',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
+    data_files=[
+        ('', ['LICENSE', 'README.md'])
+    ],
     install_requires=[
     ],
 )
