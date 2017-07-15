@@ -16,9 +16,12 @@ setup(
     long_description=readme,
     author='Vitalik Buterin',
     author_email='',
-    url='https://github.com/ethereum/research',
+    url='https://github.com/ethereum/py_pairing',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
+    data_files=[
+        ('', ['LICENSE', 'README.md'])
+    ],
     install_requires=[
     ],
 )
