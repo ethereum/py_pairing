@@ -112,7 +112,7 @@ class FQ():
 # Utility methods for polynomial math
 def deg(p):
     d = len(p) - 1
-    while p[d] == 0 and d:
+    while p[d] == 0 and d:# eliminates zero coefficients
         d -= 1
     return d
 
