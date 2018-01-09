@@ -26,7 +26,7 @@ def inv(a, n):
         r = high//low
         nm, new = hm-lm*r, high-low*r
         lm, low, hm, high = nm, new, lm, low
-    return lm % n
+    return lm % n # The quotient of the first input by the greatest common divisor of the two inputs.
 
 # A class for field elements in FQ. Wrap a number in this class,
 # and it becomes a field element.
