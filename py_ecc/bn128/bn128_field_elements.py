@@ -12,7 +12,8 @@ field_modulus = 2188824287183927522224640574525727508869631115729782366268903789
 # See, it's prime!
 assert pow(2, field_modulus, field_modulus) == 2
 
-# The modulus of the polynomial in this representation of FQ12 (a finite field with 12 elements).
+# The modulus of the polynomial in this representation of FQ12 (which has elements which
+# are vectors/coefficient lists of length 12 (13 if you count the leading 1)).
 FQ12_modulus_coeffs = [82, 0, 0, 0, 0, 0, -18, 0, 0, 0, 0, 0] # Implied + [1]
 
 # Extended euclidean algorithm to find modular inverses for
