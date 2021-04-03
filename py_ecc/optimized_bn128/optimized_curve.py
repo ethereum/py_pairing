@@ -1,5 +1,13 @@
 from .optimized_field_elements import FQ2, FQ12, field_modulus, FQ
 
+# Cofactor
+    # from libff comments
+    # [Sage excerpt]
+    # See: https://eprint.iacr.org/2015/247.pdf
+    # u = 4965661367192848881
+    # h2 = (36 * u^4) + (36 * u^3) + (30 * u^2) + 6*u + 1; h2
+    # # 21888242871839275222246405745257275088844257914179612981679871602714643921549
+
 curve_order = 21888242871839275222246405745257275088548364400416034343698204186575808495617
 
 # Curve order should be prime
