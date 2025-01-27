@@ -9,7 +9,7 @@ except:
 
 # The prime modulus of the field
 field_modulus = 21888242871839275222246405745257275088696311157297823662689037894645226208583
-# See, it's prime!
+# See, it's prime, by Fermat's Little Theorem!
 assert pow(2, field_modulus, field_modulus) == 2
 
 # The modulus of the polynomial in this representation of FQ12
